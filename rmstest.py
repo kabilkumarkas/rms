@@ -1,11 +1,5 @@
 import streamlit as st
 import pandas as pd
-# from pdfminer.pdfparser import PDFParser
-# from pdfminer.pdfdocument import PDFDocument
-# from pdfminer.pdfinterp import PDFResourceManager
-# from pdfminer.pdfpage import PDFPage
-# from pdfminer.layout import LAParams
-from pdfminer.converter import PDFPageAggregator
 from pdfminer.high_level import extract_text
 
 import sqlite3
