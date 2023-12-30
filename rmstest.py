@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pdfminer.six
+
 from pdfminer.high_level import extract_text
 
 import sqlite3
