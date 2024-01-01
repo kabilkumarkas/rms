@@ -96,7 +96,7 @@ def cinput():
 def cupdate():
     st.write("# Recruit Management System")
     st.markdown("""
-        This is Search page """)
+        This is Update page """)
     # Connect to SQLite database
     conn = sqlite3.connect('recruitment_management_system.db')
 
