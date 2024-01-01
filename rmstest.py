@@ -19,7 +19,7 @@ def display_table(data):
     # Use st.dataframe to display a Pandas DataFrame
     st.dataframe(data)
 def intro():
-    st.write("# Welcome to RMS! 👋")
+    st.write("# Welcome to RMS!")
     st.sidebar.success("Select a demo above.")
 
     st.markdown("""
