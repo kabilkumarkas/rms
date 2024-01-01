@@ -9,7 +9,7 @@ import sqlite3
 import re
 def fetch_data():
     connection = sqlite3.connect("recruitment_management_system.db")  # Replace with your database file name
-    query = "SELECT * FROM your_table"  # Replace with your table name
+    query = "SELECT * FROM candidates"  # Replace with your table name
     df = pd.read_sql_query(query, connection)
     connection.close()
     return df
@@ -19,7 +19,7 @@ def display_table(data):
     # Use st.dataframe to display a Pandas DataFrame
     st.dataframe(data)
 def intro():
-    st.write("# Welcome to Streamlit! 👋")
+    st.write("# Welcome to RMS! 👋")
     st.sidebar.success("Select a demo above.")
 
     st.markdown("""
